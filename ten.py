@@ -1,7 +1,6 @@
-n = int(input())
-c = 0
-while(n > 0):
-    n = n // 10
-    c = c + 1
-
-print("\n " %Count)
+m=int(input())
+x=0
+while(x>0):
+    m=m+1
+    x=x//10
+print(x)
