@@ -1,8 +1,8 @@
-s = int(input())
-c = int(input())
-k = 1
+m = int(input())
+j = int(input())
+l = 1
 
-for i in range(1, c + 1):
-    k = k * s
+for i in range(1, j + 1):
+    l = l * m
     
-print(k)
+print(l)
