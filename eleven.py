@@ -1,8 +1,8 @@
-n = int(input())
-e = int(input())
-p = 1
+s = int(input())
+c = int(input())
+k = 1
 
-for i in range(1, e + 1):
-    p = p * n
+for i in range(1, c + 1):
+    k = k * s
     
-print(p)
+print(k)
