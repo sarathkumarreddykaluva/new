@@ -1,9 +1,9 @@
-a,b=map(str,input().split())
-if len(a)!=len(b):
+m,n=map(str,input().split())
+if len(m)!=len(n):
     print("no")
-c=[a.count(i) for i in a]
-d=[b.count(i) for i in b]
-if (c==d):
+x=[m.count(i) for i in m]
+y=[n.count(i) for i in n]
+if (x==y):
     print("yes")
 else:
     print("no")
