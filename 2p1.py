@@ -1,9 +1,9 @@
 def end(day):
     weekend=["Sunday","Saturday"]
     weekday=["Monday","Tuesday","Wednesday","Thursday","Friday"]
-    if day in weekends:
+    if day in weekend:
         return ("yes")
-    elif day in weekdays:
+    elif day in weekday:
         return ("no")
     else:
         return ("Invalid")
